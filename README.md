@@ -28,3 +28,5 @@ Remove unused Android Studio in `/Applications`.
 
 Use `brew cleanup` and `brew autoremove` to wipe some old packages or packages not depended anymore.
 
+Or use `brew cleanup --prune=0` to remove all packages older than 0 days if you really need more space.
+
