@@ -8,19 +8,23 @@ While developing Android/iOS applications, MacBook disk space can quickly be con
 
 ## Methods to Free Up Space
 
-### Method 1: Clean Gradle Cache
+### 1: Clean Gradle Cache
 
 Delete files under `/Users/[Your Name]/.gradle/caches`. Your Android Studio should be able to reinstall necessary files.
 
-### Method 2: Remove unused Android Studio
+### 2: Remove unused Android Studio
 
 Remove old Android Studio versions under `/Users/[Your Name]/Library/Caches/Google/`. Installing new Android Studios does not remove old Studios files. They can be large!!
 
-### Method 3: Remove unused Android system images
+### 3: Remove unused Android system images
 
 Remove system images that are not required anymore under `/Users/[Your Name]/Library/Android/sdk/system-images`
 
-### Method 4: Remove old version of Android Studio
+### 4: Remove old version of Android Studio
 
 Remove unused Android Studio in `/Applications`. 
+
+### 5. Clean Homebrew cache
+
+Use `brew cleanup` and `brew autoremove` to wipe some old packages or packages not depended anymore.
 
