@@ -38,18 +38,16 @@ Empty your Trash folder.
 
 Remove your Android/iOS/Flutter projects' output build folder.
 
-#### Android
+* Android
+    /path/[Android project folder]/build
 
-/path/[Android project folder]/build
-
-#### Flutter
-
-/path/[Flutter project folder]/build
+* Flutter
+    /path/[Flutter project folder]/build
 
 ## Precautions
 
-- Ensure important data is backed up before deleting any files.
-- Be cautious when handling system files to avoid instability.
+* Ensure important data is backed up before deleting any files.
+* Be cautious when handling system files to avoid instability.
 
 ## Contribution Guidelines
 
