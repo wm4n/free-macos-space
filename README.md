@@ -30,3 +30,12 @@ Use `brew cleanup` and `brew autoremove` to wipe some old packages or packages n
 
 Or use `brew cleanup --prune=0` to remove all packages older than 0 days if you really need more space.
 
+## Precautions
+
+- Ensure important data is backed up before deleting any files.
+- Be cautious when handling system files to avoid instability.
+
+## Contribution Guidelines
+
+Feel free to open issues, suggest improvements, or submit pull requests to enhance this project.
+
