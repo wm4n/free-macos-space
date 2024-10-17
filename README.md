@@ -22,13 +22,29 @@ Remove system images that are not required anymore under `/Users/[Your Name]/Lib
 
 ### 4: Remove old version of Android Studio
 
-Remove unused Android Studio in `/Applications`. 
+Remove unused Android Studio in `/Applications`.
 
 ### 5. Clean Homebrew cache
 
 Use `brew cleanup` and `brew autoremove` to wipe some old packages or packages not depended anymore.
 
 Or use `brew cleanup --prune=0` to remove all packages older than 0 days if you really need more space.
+
+### 6. Empty recycle bin
+
+Empty your Trash folder.
+
+### 7. Clean projects' build folder
+
+Remove your Android/iOS/Flutter projects' output build folder.
+
+#### Android
+
+/path/[Android project folder]/build
+
+#### Flutter
+
+/path/[Flutter project folder]/build
 
 ## Precautions
 
@@ -38,4 +54,3 @@ Or use `brew cleanup --prune=0` to remove all packages older than 0 days if you 
 ## Contribution Guidelines
 
 Feel free to open issues, suggest improvements, or submit pull requests to enhance this project.
-
